@@ -12,7 +12,7 @@ terraform {
 # Provider-1 for EastUS (Default Provider)
 provider "azurerm" {
   features {}
-  subscription_id = "b2d547a2-4a60-467d-927f-aa6b48c894d2"
+  #subscription_id = ""
 }
 
 # Provider-2 for WestUS
@@ -23,7 +23,7 @@ provider "azurerm" {
     }
   }
   alias = "provider2-eastus"
-  subscription_id = "b2d547a2-4a60-467d-927f-aa6b48c894d2"
+  #subscription_id = ""
   #client_id = "XXXX"
   #client_secret = "YYY"
   #environment = "german"
